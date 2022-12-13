@@ -9,7 +9,7 @@
 
 *************
 ### About me
-Newbie to Development and strive to learn a lot of new interesting things. Passionate about creation. I started my learning journey with Ruby and decided to dedicate myself to web development because it can give me a lot of growth opportunities, and allows to work with people from all over the world. 
+Newbie to Development and strive to learn a lot of new interesting things. Passionate about creation. I started my learning journey with Ruby and decided to dedicate myself to web development because it can give me a lot of growth opportunities and allows to work with people from all over the world. 
 
 
 *************
@@ -29,6 +29,6 @@ Newbie to Development and strive to learn a lot of new interesting things. Passi
 
 ************
 ### Languages
-* Russian (fluent)
+* Russian (native)
 * English (B2)
 * Korean (3 level)
