@@ -1,10 +1,12 @@
 # Nadia Park
 
 ### Contact information
-* **Phone:** +82 10-8301-5717
+* **South Korea**
 * **E-mail:** bombme247@gmail.com
-* **Discord:** GeeGeeGuyz
 * **GitHub:** bombme247
+* **Discord:** GeeGeeGuyz
+* **Telegram** Nadiateanosugar
+
 
 
 *************
