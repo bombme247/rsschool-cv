@@ -1,64 +1,90 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link src="image.JPG" alt="my photo">
-    <link src="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum vitae</title>
-  </head>
-  <body>
-    <div class="container main-container">
-      <section class="section-profile" id="profile">
-        <img src="image.JPG" alt="profile-photo">
-        <div>
-          <h1 class="section-profile-name">
-            Nadia Park
-          </h1>
-          <h3 class="section-job-title">Junior front-end developer</h3>
-        </div>
-      </section>
-      <section class="section-contacts" id="contacts">
-          <h2 class="'section-title">Contact information</h2>
-          <ul class="section-list">
-            <li class="contacts-item">
-              South Korea
-            </li>
-            <li class="contacts-item">
-              E-mail
-              <a href="mailto:bombme247@gmail.com" title="email">
-                bombme247@gmail.com</a>
-            </li>
-            <li class="contacts-item">
-              GitHub
-              <a href="https://github.com/bombme247" title="github">bombme247</a>
-            </li>
-            <li class="contacts-item">
-              Discord
-              Nadia(bombme247)
-            </li>
-            <li class="contacts-item">
-              Telegram
-              Nadiateanosugar
-            </li>
-          </ul>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link src="image.JPG" alt="my photo">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum vitae</title>
+</head>
+
+<body>
+  <header>
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class=nav-list>
+          <li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contact information</a></li>
+          <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code-example" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+  <main>
+    <div class="container main-container">
+      <section class="section" id="profile-image">
+        <img class="image" src="image.JPG" alt="profile-photo">
       </section>
-      <section class="section-about-me" id="about-me">
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contact information</h2>
+        <ul class="section-list">
+          <li class="contacts-item">
+            South Korea
+          </li>
+          <li class="contacts-item">
+            <img class="contacts-icon" src="assets/email.png" alt="email-icon">
+            <a href="mailto:bombme247@gmail.com" title="email">
+              bombme247@gmail.com</a>
+          </li>
+          <li class="contacts-item">
+            <img class="contacts-icon" src="assets/github.png" alt="github-icon">
+            <a href="https://github.com/bombme247" title="github">bombme247</a>
+          </li>
+          <li class="contacts-item">
+            <img class="contacts-icon" src="assets/discord.png" alt="discord-icon">
+            <span>Nadia(bombme247)</span>
+          </li>
+          <li class="contacts-item">
+            <img class="contacts-icon" src="assets/telegram.png" alt="telegram-icon">
+            <span>Nadiateanosugar</span>
+          </li>
+        </ul>
+      </section>
+      <hr>
+      <section class="section" id="about-me">
         <h2 class="section-title">About me</h2>
         <p>
-          Newbie to Development and strive to learn a lot of new interesting things. 
-          Passionate about creation. I started my learning journey with Ruby and decided 
-          to dedicate myself to Web development because it can give me a lot of growth 
+          Newbie to Development and strive to learn a lot of new interesting things.
+          Passionate about creation. I started my learning journey with Ruby and decided
+          to dedicate myself to Web development because it can give me a lot of growth
           opportunities and allows to work with people from all over the world.
         </p>
       </section>
-      <section class="section-skills" id="skills">
+    </div>
+    <aside class="container right-container">
+      <section class="section" id="profile-title">
+        <h1 class="section-profile-name">
+          Nadia Park
+        </h1>
+        <hr class="hr-title">
+        <h3 class="section-job-title">Front-end development student</h3>
+      </section>
+      <section class="section" id="skills">
         <h2 class="section-title">Skills</h2>
         <ul class="section-list">
           <li class="section-item">
-            HTML / css
+            HTML / CSS
           </li>
           <li class="section-item">
             Ruby (basics)
@@ -71,7 +97,8 @@
           </li>
         </ul>
       </section>
-      <section class="section-code-example" id="code">
+      <hr>
+      <section class="section" id="code">
         <h2 class="section-title">Code example</h2>
         <pre class="code">
           <code>
@@ -81,41 +108,46 @@
           </code>
         </pre>
       </section>
-      <section class="section-education" id="education">
+      <hr>
+      <section class="section" id="education">
         <h2 class="section-title">Education</h2>
         <ul class="section-list">
           <li class="section-item">
-            Southern University (Institute of Management Business and Law)
-            -Bachelor of Economics
+            Southern University (Institute of Management Business and Law) <span>/ Bachelor of Economics</span>
           </li>
           <li class="section-item">
             Good programmer courses
           </li>
+          <li class="section-item">
+            Rolling Scopes school <span>/ JS/Frontend Developer (in studying process)</span>
+          </li>
         </ul>
       </section>
-      <section class="section-languages" id="languages">
+      <hr>
+      <section class="section" id="languages">
         <h2 class="section-title">Languages</h2>
         <ul class="section-list">
           <li class="section-item">
-            Russian (native)
+            Russian <span>(native)</span>
           </li>
           <li class="section-item">
-            English (B2)
+            English <span>(B2) / have some practice with native speakers</span>
           </li>
           <li class="section-item">
-            Korean (3 level)
+            Korean <span>(3 level)</span>
           </li>
         </ul>
       </section>
-    </div>
-    <footer class="footer">
-      <div class="footer-box">
-        <a href="https://github.com/bombme247">bombme247</a>
-        © 2022
-      </div>
-      <a href="https://rs.school/js/" title="rsschool">
-      <img src="https://rs.school/images/rs_school_js.svg" alt="rsschool img">
-      </a>
-    </footer>
-  </body>
-  </html>
+    </aside>
+  </main>
+  <footer class="footer">
+    <a href="https://github.com/bombme247" title="github"><img class="footer-item footer-logo"
+        src="assets/github (1).png" alt="github-img"></a></img>
+    <p class="footer-item year">© 2022</p>
+    <a href="https://rs.school/js/" title="rsschool">
+      <img class="footer-item school-logo" src="https://rs.school/images/rs_school_js.svg" alt="rsschool-img">
+    </a>
+  </footer>
+</body>
+
+</html>
