@@ -55,13 +55,13 @@ html {
   justify-content: flex-end;
   align-items: center;
   background-color: #b3a396;
-  padding: 20px;
+  padding: 10px;
   list-style: none;
 }
 
 .nav-link {
   color: #EFEFEF;
-  padding: 0 20px;
+  padding: 0 12px;
   line-height: 50px;
   text-decoration: none;
 }
@@ -104,6 +104,12 @@ html {
 .right-container {
   background-color: #fef9f1;
   padding: 20px;
+}
+
+.section-link {
+  color: #74645a;
+  text-decoration: none;
+  transition: color 0.5s;
 }
 
 .footer {
